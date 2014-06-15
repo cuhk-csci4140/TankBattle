@@ -1,0 +1,411 @@
+.form_btn1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #164BA0;
+	background-color: #D1D1D1;
+	border: 1px solid #83AAD3;
+}
+
+#start  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #164BA0;
+	background-color: #D1D1D1;
+	border: 1px solid #83AAD3;
+	display: none;
+}
+
+.kick {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #161616;
+	background-color: #D1D1D1;
+	border: 1px solid #83AAD3;
+}
+.frm_btn2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF;
+	background-color: #D1D1D1;
+	border: 1px solid #83AAD3;
+}
+.frm_start
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #EB0D5F;
+  background-color: #D1D1D1;
+  border: 1px solid #83AAD3;
+}
+
+body {
+  background-image:url("tank_bg.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
+}
+
+#layout
+{
+  width: 750px;
+  height: 890px;
+  border:1px solid gray;
+  margin:0px auto;
+  background-color:#FFFFFF;
+  opacity: 0.8;
+}
+#person
+{
+  border:1px solid gray; 
+  float:left; 
+  width: 200px;
+  height: 70px;
+  margin-left: 40px;
+  margin-top:20px;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 8px; 
+   padding: 4px 8px; 
+}
+#main
+{
+  margin-top:20px;
+}
+#gmRoom
+{
+  border-collapse:collapse;
+  width: 600px;
+  border:1px solid gray;
+}
+
+#tbl_room
+{
+  border-collapse:collapse;
+  width: 690px;
+  border:1px solid gray;
+}
+
+#roomHead
+{
+  width: 690px;
+  border:1px solid gray;
+  border-collapse:collapse;
+  height: 30px;
+}
+
+#roomHead tr {
+  background-color: #2A8042;
+  color: #F0F7F2;
+}
+
+#onlineUname {
+  text-align:center;
+  background-color: #2A8042;
+  color: #F0F7F2;
+}
+
+#on_list {
+  
+  margin-top: 4px;
+  background-color: #E2EDE5;
+}
+
+tr.rmList
+{
+	font-size:18px;
+	background-color: #E2EDE5;
+	height: 30px;
+	border:1px solid gray;
+	margin:5px;
+}
+td.rmid
+{
+	
+	
+}
+td.name
+{
+	
+	
+}
+td.host
+{
+	
+}
+td.status
+{
+	text-align: center;
+}
+
+tr.rmList:hover
+{
+	background-color:#F9F944;
+	cursor: hand;
+	cursor: pointer; 
+	font-weight:bold;
+}
+
+tr.rmList:active
+{
+	font-size:20px;
+}
+
+#roomList
+{
+	margin:0px auto;
+	
+	width: 690px;
+	height: 320px;
+	overflow: auto;
+	
+}
+#bt
+{
+	width: 620px;
+	margin:0px auto;
+	margin-top: 15px;
+	
+
+}
+#listTitle
+{
+	width: 690px;
+	margin-left: 30px;
+	float: left;
+}
+
+th
+{
+	
+}
+#rmid
+{
+	width: 63px;
+	text-align: left;
+}
+#rmName
+{
+	width: 200px;
+	text-align:left;
+	text-align: center;
+}
+#host
+{
+	width: 180px;
+	text-align:left;
+}
+
+#no_players
+{
+	width: 100px;
+	text-align:left;
+}
+
+#status
+{
+	width: 100px;
+	text-align:center;
+}
+
+
+#bottomDiv
+{
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+}
+
+#onlineListDiv
+{
+	
+	margin-right:20px;
+	float: right;
+	width: 220px;
+	height: 290px;
+	border:1px solid gray;
+}
+#onlineList
+{
+  overflow: auto;
+  height: 230px;
+}
+#chatDiv
+{
+  margin-top: 15px;
+  margin-left:20px;
+  width: 450px; 
+  height: 260px;
+  border:1px solid black;
+}
+
+#settingDiv
+{
+	margin-right: 16px;
+	float:right; 
+	width: 240px; 
+	height: 320px; 
+	border:1px solid black;
+}
+
+#roomLayout
+{
+	background-color: #FFFFFF;
+	width: 740px;
+	height: 870px;
+	border:1px solid black;
+	margin:0px auto;
+	opacity: 0.85;
+}
+#roomName
+{
+  border:1px solid black; 
+  width:200px; height: 30px; 
+  line-height: 30px;
+  float:left;
+  margin: 8px;
+  padding-left: 10px;
+}
+#roomEdit
+{
+  
+  width:80px; height: 30px; 
+  float:left;
+  margin: 8px;
+}
+#start_div
+{
+  float: right;
+  margin-right: 10px;
+}
+#roomMember
+{
+  
+}
+.roomTr
+{
+  border:1px solid gray; 
+  height: 70px; 
+}
+.headImage
+{
+  border:1px solid gray; 
+  width:80px;
+  
+}
+.memName
+{
+  border:1px solid gray; 
+  width:300px;
+}
+#chat-wrap                      
+{ 
+  margin: 0 0 6px 0; 
+}
+#chat-area                      
+{ 
+  height: 210px; 
+  overflow: auto; 
+  border: 1px solid #666; 
+  padding: 10px; background: white; 
+  width:430px;
+  margin-left:15px;
+}
+#chat-area span                 
+{ 
+  color: white; 
+  background: #333; 
+  padding: 4px 8px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 8px; 
+  margin: 0 5px 0 0; 
+}
+#chat-area p                    
+{ 
+  font-size: 14px;
+  padding: 2px 0; 
+  border-bottom: 1px solid #ccc; 
+}
+
+#sendie   
+{ 
+  border: 1px solid #999; 
+  width: 420px; 
+  padding: 10px; 
+  font: 18px "Lucida Grande", Sans-Serif; 
+  margin-left: 16px;
+  max-width: 430px; max-height: 50px;
+}
+
+div.fadeMe {
+  opacity:    0.6; 
+  background: #000; 
+  width:      100%;
+  height:     100%; 
+  z-index:    10;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+  display: none;
+}
+
+#host_row {
+  font: 18px "Lucida Grande", Sans-Serif; 
+  margin: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#members_row{
+  font: 18px "Lucida Grande", Sans-Serif; 
+  margin: 10px;
+ 
+  height: 30px;
+  line-height: 30px;
+}
+
+#span_ready {
+	border:1px solid gray; 
+	margin-left:10px;
+	margin-right:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #43D8DB;
+}
+
+#start{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#start:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#txt_rmname
+{
+	max-width: 190px; 
+	max-height: 19px;
+}
+
