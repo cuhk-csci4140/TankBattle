@@ -3,10 +3,10 @@ CSCI4140 2013/14 Term2 Project	(Submission: 19 May, 2014)
 Group : The No. 2 (Group 21)
 Project: Tank Battle Multi-player Online Web Game
 Members:
-1155000977	CHAN Ka Yun
-1155005566	CHUNG Pui Hang
-1155017827	CHENG Wing Yan
-1155009621	LEUNG Kam Choi
+CHAN Ka Yun
+CHUNG Pui Hang
+CHENG Wing Yan
+LEUNG Kam Choi
 
 How to deploy the game.
 ======================
